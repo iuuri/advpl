@@ -1,0 +1,16 @@
+#include "Protheus.ch"
+#include "Totvs.ch"
+
+User Function SYSTEM7()
+
+Local lDia as logical
+
+lDia := .T.
+
+IF lDia
+  MsgInfo("Farei uma caminhada"," Resultado")
+ELSE 
+  MsgInfo("Ficarei em casa"," Resultado")
+ENDIF
+
+return

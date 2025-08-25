@@ -1,0 +1,21 @@
+#include "Protheus.ch"
+#include "Totvs.ch"
+
+User Function SYSTEM4()
+
+Local nNum1 as numeric
+Local nNum2 as numeric
+
+nNum1 := 10
+nNum2 := 10 
+
+IF nNum1 > nNum2
+  MsgInfo(CValTochar(nNum1)+" é maior(>) que "+CValTochar(nNum2)," Resultado")
+ELSEIF nNum1 < nNum2
+  MsgInfo(CValTochar(nNum1)+" é menor(<) que "+CValTochar(nNum2)," Resultado")
+ELSE
+  MsgInfo(CValTochar(nNum1)+" é igual(=) a "+CValTochar(nNum2)," Resultado")
+
+ENDIF
+  
+return

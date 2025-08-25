@@ -1,0 +1,15 @@
+#include "Protheus.ch"
+#include "Totvs.ch"
+
+User Function SYSTEM5()
+
+Local lCalor  := .T.
+Local lChuva  := .F.
+
+IF lCalor == .T. .AND. lChuva == .F.
+  MsgInfo("Hoje irei a praia", "Resultado")
+else
+  MsgInfo("Hoje não irei a praia", "Resultado")
+ENDIF
+
+return

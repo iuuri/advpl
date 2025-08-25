@@ -1,0 +1,22 @@
+#include "Protheus.ch"
+#include "Totvs.ch"
+
+User Function SISTEM2()
+
+//Declarar variavel
+Local nNum1 := 10
+Local nNum2 := 20
+
+
+Local nSub  := nNum1 - nNum2
+Local nMult := nNum1 * nNum2
+Local nDiv  := nNum1 / nNum2
+Local nAdi  := nNum1 + nNum2
+
+MsgInfo(CValTochar (nSub), "Subtração 10 - 20")
+MsgInfo(CValTochar (nMult), "Multiplicação 10 * 20")
+MsgInfo(CValTochar (nDiv), "Divisão 10 / 20")
+MsgInfo(CValTochar (nAdi), "Adição 10 + 20")
+
+
+return

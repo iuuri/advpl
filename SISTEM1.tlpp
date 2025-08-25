@@ -1,0 +1,8 @@
+#include "Protheus.ch"
+#include "Totvs.ch"
+
+User Function SISTEM1()
+
+MsgInfo("Se leu, mamou", "Saudação")
+
+return

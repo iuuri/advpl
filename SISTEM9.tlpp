@@ -1,0 +1,17 @@
+#include "Protheus.ch"
+#include "Totvs.ch"
+
+User Function SISTEM9()
+
+Local n as numeric 
+n := 1  
+
+WHILE n <= 10
+
+  Alert(cValToChar(n))
+
+  n++
+
+ENDDO
+
+return
